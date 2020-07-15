@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: gym-extensions
+Version: 0.0.1
+Summary: Extensions to OpenAI Gym for multitask learning, inverse reinforcement learning, and other peripheral tasks.
+Home-page: https://github.com/Breakend/gym-extensions
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5

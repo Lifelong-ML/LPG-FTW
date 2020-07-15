@@ -1,0 +1,8 @@
+opencv-python>=4.1.0.25
+
+[dev]
+ipdb
+memory_profiler
+pylint
+pyquaternion==0.9.5
+pytest>=3.6
