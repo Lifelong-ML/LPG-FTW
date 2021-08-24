@@ -60,6 +60,12 @@ $ python experiments/metaworld_tasks/metaworld_[algorithm].py
 $ python experiments/metaworld_tasks/metaworldMT50_[algorithm].py
 ```
 
+for the Mujoco multi-task, you must first create the tasks before running the experiments:
+
+```
+$ python experiments/mtl_bodypart_tasks/create_tasks/[env]_create.py
+```
+
 Note that PG-ELLA must be trained _after_ STL, since it uses the STL pre-trained policies. Then, to evaluate the policy at different stages of training (start, tune, and update), execute:
 
 ```
@@ -72,6 +78,7 @@ This will save all the files needed for creating the tables. Then simply execute
 ```$ python mjrl/utils/make_results_tables_metaworld.py```
 
 To generate the tables. Instructions for recreating results on the OpenAI domains are almost identical, replacing the `metaworld_tasks/` directory for `mtl_bodypart_tasks/` or `mtl_gravity_tasks/` where appropriate, and using `make_results_tables_openai.py` for creating the tables.
+
 
 
 
